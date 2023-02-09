@@ -7,7 +7,7 @@ public class Singleton {
         System.out.println("läks Singletoni funktsiooni");
         if (instance == null) {
             instance = new Singleton();
-            System.out.println("uus instance loodud");
+            System.out.println("uus instance Singletoni loodud");
         }
         return instance;
 
