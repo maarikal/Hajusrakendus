@@ -21,14 +21,14 @@ public class Main {
     public static void singletonPattern() {
         System.out.println("-----Singleton meetod-----");
         Singleton muster1 = Singleton.getInstance();
-        System.out.println("esimene muster");
+        System.out.println("esimene instance");
 
         Singleton muster2 = Singleton.getInstance();
-        System.out.println("teine muster");
+        System.out.println("teine instance");
 
         if (muster1 == muster2) {
-            System.out.println("Muster1 ja Muster2 on samad");
+            System.out.println("Instance1 ja Instance2 on samad");
         } else
-            System.out.println("Mustrid on erinevad");
+            System.out.println("Instancid on erinevad");
     }
 }
